@@ -18,16 +18,16 @@ export default function Feature({products,data,setSingle}) {
     <div className='container feature'>
         <div className='row'>
       <h1 className='col-12 h3'>snacks</h1>      
-      <Swiper navigation={true} modules={[Navigation]} className="m-3 p-3 mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className=" m-0 mySwiper">
         {
             data.snacks && data.snacks.map(d => {
            return( 
-             <SwiperSlide className='col-6 col-md-4 col-lg-3' >
+             <SwiperSlide className='col-6 col-md-4 col-lg-3 ' >
                 <Link to="product/single/" className='link'>            
-                <div className='card card1 shadow m-2 text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                <div className='card1 shadow m-0 text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
                     <img src={d.pic} className="product_img w-100"/>
-                    <span className='w-100 text-center p-0 mx-0'>{d.name}</span>   
-                    <p className='w-100 p-0 mx-0'>snacks</p>                     
+                    <span className='text-center p-0 mx-0'>{d.name}</span>   
+                    <p className='p-0 mx-0'>snacks</p>                     
                     </div>  
                     </Link> 
                     </SwiperSlide>
@@ -35,14 +35,14 @@ export default function Feature({products,data,setSingle}) {
                 })
                 } 
                 </Swiper>
-                <h1 className='col-12 h3'>pickles</h1>      
-                <Swiper navigation={true} modules={[Navigation]} className="m-3 p-3 mySwiper">
+                <h1 className='col-12 h3'>Pooja Items</h1>      
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 {
                   data.pickles.map(d => {
                   return( 
                       <SwiperSlide className='col-6 col-md-4 col-lg-3'>
                       <Link to="product/single" className='link'>            
-                      <div className='card card1 shadow m-2 text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                      <div className='card card1 shadow text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
                           <img src={d.pic} className="product_img w-100"/>
                           <span className='w-100 text-center p-0 mx-0'>{d.name}</span>   
                           <p className='w-100 text-center p-0 mx-0'>Pickles</p>                     
@@ -53,6 +53,44 @@ export default function Feature({products,data,setSingle}) {
                       })
                       }         
                 </Swiper>
+                <h1 className='col-12 h3'>Masala</h1>      
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                {
+                  data.pickles.map(d => {
+                  return( 
+                      <SwiperSlide className='col-6 col-md-4 col-lg-3'>
+                      <Link to="product/single" className='link'>            
+                      <div className='card card1 shadow text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                          <img src={d.pic} className="product_img w-100"/>
+                          <span className='w-100 text-center p-0 mx-0'>{d.name}</span>   
+                          <p className='w-100 text-center p-0 mx-0'>Pickles</p>                     
+                          </div>  
+                          </Link> 
+                          </SwiperSlide>  
+                  )
+                      })
+                      }         
+                </Swiper>
+                <h1 className='col-12 h3'>pickles</h1>      
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                {
+                  data.pickles.map(d => {
+                  return( 
+                      <SwiperSlide className='col-6 col-md-4 col-lg-3'>
+                      <Link to="product/single" className='link'>            
+                      <div className='card card1 shadow text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                          <img src={d.pic} className="product_img w-100"/>
+                          <span className='w-100 text-center p-0 mx-0'>{d.name}</span>   
+                          <p className='w-100 text-center p-0 mx-0'>Pickles</p>                     
+                          </div>  
+                          </Link> 
+                          </SwiperSlide>  
+                  )
+                      })
+                      }         
+                </Swiper>
+
+
                 </div>
                 </div>
         )

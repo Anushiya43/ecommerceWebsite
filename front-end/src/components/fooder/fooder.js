@@ -4,9 +4,9 @@ function Fooder() {
   return (
     <div className='container fooder pb-5' id='footer'>
         <div className='row'>
-            <img src='food1/fooder_frame.png' className='col-12 w-100'/>
+            <img src='https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092452/Nathan_ecommerce/frames/fooder_banner1.jpg' className='col-12 w-100'/>
             <div className='col-12 text-center'>
-                <img src='food1/logo-1.png'/>
+                <img src='https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100175/Nathan_ecommerce/frames/logo1.avif'/>
             </div>
             <div className='col-12 text-center'>
             <i class="fa-brands fa-square-facebook fa-2xl icon"></i>

@@ -8,3 +8,8 @@
 .feature p{
     color: gray;
 }
+
+@media only screen and (width < 800px) {  
+    .feature span,.feature p{
+        font-size: 10px;
+    }}
