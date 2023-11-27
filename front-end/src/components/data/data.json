@@ -121,7 +121,7 @@
 
         },
         {
-            "pic":"/pickles/KeralaGarlicPickle.png",
+            "pic":"pickles/KeralaGarlicPickle.png",
             "name":"Garlic Pickle",
             "original_price":"200 Rs",
             "selling_rate":"100 Rs",
@@ -131,7 +131,7 @@
 
         },
         {
-            "pic":"/pickles/KeralaLemonPickleVeg.png",
+            "pic":"pickles/KeralaLemonPickleVeg.png",
             "name":"Lemon Pickle",
             "original_price":"200 Rs",
             "selling_rate":"150 Rs",
