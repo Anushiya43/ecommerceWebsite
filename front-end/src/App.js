@@ -48,7 +48,7 @@ function App() {
         {
             id:5,
             pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092712/Nathan_ecommerce/catagory/kitchen.webp",
-            name:"Kitchen Accessory",
+            name:"Kitchen Item",
             value:"kitchen"
         }
     ]

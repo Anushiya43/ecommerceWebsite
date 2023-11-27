@@ -22,7 +22,7 @@ function Product({data,products,setProducts,setSingle}) {
 
             return( 
                 <Link to="single/" className='link'>            
-                <div className='card card1 shadow-lg m-2' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                <div className='card card1 shadow-lg m-1' key={d.id}  onClick={()=>{setSingle({d})}}>                    
                     <img src={d.pic} className="product_img w-100 text-center"/>
                     <span className='w-100'>{d.name}</span>   
                     <span className='text-secondary'>{products}</span>
