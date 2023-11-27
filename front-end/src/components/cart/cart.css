@@ -1,0 +1,11 @@
+.cart{
+   height: 200px; 
+}
+
+.cart p{
+    font-size: 12px;
+}
+
+.cart label,.cart input{
+    font-size: 10px;
+}

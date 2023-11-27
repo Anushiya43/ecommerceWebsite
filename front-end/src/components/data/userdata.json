@@ -1,0 +1,26 @@
+{
+   "userdata":[ { 
+       
+        "id":1,
+        "name":"Anushiya",
+        "email":"anushiya@gmail.com",
+        "password":"anushiya"
+
+    },
+    { 
+       
+        "id":2,
+        "name":"Arumugam",
+        "email":"arumugam@gmail.com",
+        "password":"arumugam"
+
+    },
+    { 
+       
+        "id":1,
+        "name":"Nathan",
+        "email":"nathan@gmail.com",
+        "password":"nathan"
+    }
+    
+]}

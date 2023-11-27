@@ -1,0 +1,43 @@
+.product_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.product span{
+    font-weight: bold;
+    width: 200px;
+}
+.product .card1{
+    padding: 7px;
+    width: 250px;
+}
+
+.product .card1:hover{
+    padding: 12px;
+}
+.flex{
+    display:flex;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+@media only screen and (width < 800px) {  
+    .product_img{
+        height: 120px;
+        width: 120px;
+    }
+    .product span{
+        font-weight: bold;
+        width: 100px;
+        font-size: 10px;
+    }
+    .product .card1{
+        padding: 5px;
+        width: 150px;
+    }
+    .product .card1:hover{
+        padding: 7px;
+    }
+
+}

@@ -3,7 +3,7 @@ import "./banner.css";
 
 function Banner() {
   return (
-    <div className='container-fluid m-0 p-0'>
+    <div className='container'>
     <div className='row'>
         <div id="carouselExampleIndicators" class="col-12 carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">

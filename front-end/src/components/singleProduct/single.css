@@ -1,0 +1,27 @@
+.single{
+    display: flex;
+    flex-direction: row;
+}
+.single_img{
+    height: 400px;
+    width: 400px;
+}
+.oPrice{
+    text-decoration: line-through;
+    color: gray;
+}
+.sPrice{
+    color: lightsalmon;
+}
+h1,p,span{
+    font-weight: bold;
+}
+@media only screen and (width < 800px) {   
+    .single{
+        flex-direction: column;
+    } 
+    .single_img{
+        height: 250px;
+        width: 250px;
+    }
+}

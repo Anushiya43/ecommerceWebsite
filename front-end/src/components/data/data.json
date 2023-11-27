@@ -1,0 +1,192 @@
+{
+    "snacks":[
+        {   "id":1,
+            "pic":"/snacks/ChettinaduThattaiMurukku2.png",
+            "name":"Chettinadu Thattai Murukku",
+            "original_price":"Rs 150",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"         
+
+        },
+        {   
+            "id":2,
+            "pic":"/snacks/maduraimixture2.png",
+            "name":"Madurai Mixture",
+            "original_price":"Rs 200",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        },
+        {
+            "id":3,
+            "pic":"/snacks/NagercoilNendranChips2.png",
+            "name":"Nagercoil NendranChips",
+            "original_price":"Rs 150",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+            
+        },
+        {
+            "id":4,
+           "pic":"/snacks/Palkova6.png",
+            "name":"Palkova",
+            "original_price":"Rs 300",
+            "selling_rate":"Rs 250" ,
+            "weight":200,
+            "quantity":10,
+            "stock":"available"           
+
+        },
+        {   
+            "id":5,
+            "pic":"/snacks/SrivilliputhurMilkHalwa2.png",
+            "name":"Srivilli Puthur Milk Halwa",
+            "original_price":"Rs 250",
+            "selling_rate":"RS 200",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        },
+        {   
+            "id":6,
+            "pic":"./snacks/Thoothukudi-Macaroons-2.png",
+            "name":"Thoothukudi Macaroons",
+            "original_price":"Rs 200",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+        },
+        {
+            "id":7,
+            "pic":"/snacks/Thoothukudi-Macaroons-2.png",
+            "name":"Thoothukudi-Macaroons",
+            "original_price":"Rs 300",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        },
+        {   
+            "id":8,
+            "pic":"/snacks/TirunelveliHalwa2.png",
+            "name":"Tirunelveli Halwa",
+            "original_price":"Rs 200",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        },
+        {   
+            "id":9,
+            "pic":"/snacks/udupiMixture2.png",
+            "name":"udupiMixture",
+            "original_price":"Rs 150",
+            "selling_rate":"Rs 100",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+        },
+        {   
+            "id":10,
+            "pic":"/snacks/ChettinaduThattaiMurukku2.png",
+            "name":"Chettinadu ThattaiMurukku2",
+            "original_price":"Rs 250",
+            "selling_rate":"RS 200",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        }
+    ],
+    "masala":[],
+    "pickles":[
+        {
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701083240/pickles/Tuna_Pickle.webp",
+            "name":"Tuna Fish Pickle",
+            "original_price":"500 Rs",
+            "selling_rate":"300 Rs",
+            "weight":200,
+            "quantity":10,
+            "stock":"available"
+
+        },
+        {
+            "pic":"/pickles/KeralaGarlicPickle.png",
+            "name":"Garlic Pickle",
+            "original_price":"200 Rs",
+            "selling_rate":"100 Rs",
+            "weight":200,
+            "quantity":10,
+            "rating":"available"
+
+        },
+        {
+            "pic":"/pickles/KeralaLemonPickleVeg.png",
+            "name":"Lemon Pickle",
+            "original_price":"200 Rs",
+            "selling_rate":"150 Rs",
+            "weight":200,
+            "quantity":10,
+            "rating":"available"
+
+        },
+        {
+            "pic":"/pickles/MalabarMangoPickle.png",
+            "name":"Mango Pickle",
+            "original_price":"250 Rs",
+            "selling_rate":"200 Rs",
+            "weight":200,
+            "quantity":10,
+            "rating":"available"
+
+        }
+    ],
+    "kitchen":[
+        {
+            "pic":"",
+            "name":"",
+            "original_price":"",
+            "selling_rate":"",
+            "weight":200,
+            "quantity":10,
+            "rating":""
+
+        },
+        {
+            "pic":"",
+            "name":"",
+            "original_price":"",
+            "selling_rate":"",
+            "rating":""
+
+        },
+        {
+            "pic":"",
+            "name":"",
+            "original_price":"",
+            "selling_rate":"",
+            "rating":""
+
+        },
+        {
+            "pic":"",
+            "name":"",
+            "original_price":"",
+            "selling_rate":"",
+            "rating":""
+
+        }
+    ]
+
+}
+

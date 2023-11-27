@@ -1,6 +1,10 @@
 
 .imge{
-    width: 250px;
-    height: 250px;
-    margin: 25px;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+.feature p{
+    color: gray;
 }
