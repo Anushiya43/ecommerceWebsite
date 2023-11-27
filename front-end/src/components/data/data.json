@@ -1,7 +1,7 @@
 {
     "snacks":[
         {   "id":1,
-            "pic":"/snacks/ChettinaduThattaiMurukku2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092961/Nathan_ecommerce/snacks/zkul8nfdzyevrj9clyob.webp",
             "name":"Chettinadu Thattai Murukku",
             "original_price":"Rs 150",
             "selling_rate":"Rs 100",
@@ -12,7 +12,7 @@
         },
         {   
             "id":2,
-            "pic":"/snacks/maduraimixture2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092963/Nathan_ecommerce/snacks/fefnpyccwaeobecodtgv.webp",
             "name":"Madurai Mixture",
             "original_price":"Rs 200",
             "selling_rate":"Rs 100",
@@ -23,7 +23,7 @@
         },
         {
             "id":3,
-            "pic":"/snacks/NagercoilNendranChips2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/s2zio45fjsszijxvix6m.webp",
             "name":"Nagercoil NendranChips",
             "original_price":"Rs 150",
             "selling_rate":"Rs 100",
@@ -34,7 +34,7 @@
         },
         {
             "id":4,
-           "pic":"/snacks/Palkova6.png",
+           "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/duxetvqfwaeevbjlbmew.webp",
             "name":"Palkova",
             "original_price":"Rs 300",
             "selling_rate":"Rs 250" ,
@@ -45,7 +45,7 @@
         },
         {   
             "id":5,
-            "pic":"/snacks/SrivilliputhurMilkHalwa2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/vr8vjgjqvpdfeomqfo9u.webp",
             "name":"Srivilli Puthur Milk Halwa",
             "original_price":"Rs 250",
             "selling_rate":"RS 200",
@@ -56,7 +56,7 @@
         },
         {   
             "id":6,
-            "pic":"./snacks/Thoothukudi-Macaroons-2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/nps52lht2nmurmyymaxa.webp",
             "name":"Thoothukudi Macaroons",
             "original_price":"Rs 200",
             "selling_rate":"Rs 100",
@@ -66,7 +66,7 @@
         },
         {
             "id":7,
-            "pic":"/snacks/Thoothukudi-Macaroons-2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/ryzcapo4qwmpncjn9rhk.webp",
             "name":"Thoothukudi-Macaroons",
             "original_price":"Rs 300",
             "selling_rate":"Rs 100",
@@ -77,7 +77,7 @@
         },
         {   
             "id":8,
-            "pic":"/snacks/TirunelveliHalwa2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/vr8vjgjqvpdfeomqfo9u.webp",
             "name":"Tirunelveli Halwa",
             "original_price":"Rs 200",
             "selling_rate":"Rs 100",
@@ -88,7 +88,7 @@
         },
         {   
             "id":9,
-            "pic":"/snacks/udupiMixture2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/amytoslk2zni5hryn8yh.webp",
             "name":"udupiMixture",
             "original_price":"Rs 150",
             "selling_rate":"Rs 100",
@@ -98,7 +98,7 @@
         },
         {   
             "id":10,
-            "pic":"/snacks/ChettinaduThattaiMurukku2.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/amytoslk2zni5hryn8yh.webp",
             "name":"Chettinadu ThattaiMurukku2",
             "original_price":"Rs 250",
             "selling_rate":"RS 200",
@@ -111,7 +111,7 @@
     "masala":[],
     "pickles":[
         {
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701083240/pickles/Tuna_Pickle.webp",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/Tuna_Pickle.webp",
             "name":"Tuna Fish Pickle",
             "original_price":"500 Rs",
             "selling_rate":"300 Rs",
@@ -121,7 +121,7 @@
 
         },
         {
-            "pic":"pickles/KeralaGarlicPickle.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/KeralaGarlicPickle.webp",
             "name":"Garlic Pickle",
             "original_price":"200 Rs",
             "selling_rate":"100 Rs",
@@ -131,7 +131,7 @@
 
         },
         {
-            "pic":"pickles/KeralaLemonPickleVeg.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/KeralaLemonPickleVeg.webp",
             "name":"Lemon Pickle",
             "original_price":"200 Rs",
             "selling_rate":"150 Rs",
@@ -141,7 +141,7 @@
 
         },
         {
-            "pic":"/pickles/MalabarMangoPickle.png",
+            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/MalabarMangoPickle.webp",
             "name":"Mango Pickle",
             "original_price":"250 Rs",
             "selling_rate":"200 Rs",

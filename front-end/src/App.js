@@ -24,30 +24,30 @@ function App() {
     [
         {   
             id:1,
-            pic:"food1/Sweets_Snacks_2.png",
+            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092710/Nathan_ecommerce/catagory/snacks.webp",
             name:"Sweets & Snacks",
             value:"snacks"
         },
         {
             id:2,
-            pic:"food1/Masala_3.png",
+            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092710/Nathan_ecommerce/catagory/masala.webp",
             name:"Masala",
             value:"masala"
         },
         {
             id:3,
-            pic:"food1/Pickle_3.png",
+            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pickles.webp",
             name:"Pickles",
             value:"pickles"
         },
         {
             id:4,
-            pic:"food1/pooja_items.png",
+            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pooja.jpg",
             name:"Pooja Items",
         },
         {
             id:5,
-            pic:"food1/kitchen.png",
+            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092712/Nathan_ecommerce/catagory/kitchen.webp",
             name:"Kitchen Accessory",
             value:"kitchen"
         }
