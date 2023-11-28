@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Routes,Route} from "react-router-dom";
+import { Routes,Route, Link} from "react-router-dom";
 import Home from './pages/home';
 import Product from './components/products/product';
 import Single from './components/singleProduct/single';
@@ -62,8 +62,6 @@ function App() {
       <Routes>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login'  element={<Login setUser={setUser}/>}/>
-        <Route path='/ecommerceWebsite' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
-
         <Route exact path='/' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
         <Route path='product/' element={<Product data={data} products={products} setProducts={setProducts} setSingle={setSingle}/>}/>      
         <Route path='product/single/' element={<Single  setSingle={setSingle} data={data}  single={single} products={products}/>}/>            
