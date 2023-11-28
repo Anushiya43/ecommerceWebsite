@@ -31,7 +31,7 @@ function Cart() {
           <p className=''><span className='oPrice'>{data.original_price}</span> <span className='sPrice'>{data.selling_rate}</span></p>
           <p className='d-none d-lg-block'>quantity: {data.weight}g</p>
           <p className='d-flex mx-1'>
-          <span class="btn-group btn-group-toggle mx-1 w-50" data-toggle="buttons">
+          <span class="btn-group btn-group-toggle mx-2 w-50" data-toggle="buttons">
               <label class="btn btn-light active">
                 <input type="radio" name="options" id="option1" checked/> -
               </label>

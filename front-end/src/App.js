@@ -62,8 +62,9 @@ function App() {
       <Routes>
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login'  element={<Login setUser={setUser}/>}/>
-        <Route exact path='/ecommerceWebsite' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
-        <Route path='/' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
+        <Route path='/ecommerceWebsite' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
+
+        <Route exact path='/' element={<Home catagory={catagory} setSingle={setSingle} data={data} products={products} setProducts={setProducts}/>}/>
         <Route path='product/' element={<Product data={data} products={products} setProducts={setProducts} setSingle={setSingle}/>}/>      
         <Route path='product/single/' element={<Single  setSingle={setSingle} data={data}  single={single} products={products}/>}/>            
         {user?<Route path="/cart"  element={<Cart/>}/>:<Route path='/signup' element={<Signup/>}/>}
