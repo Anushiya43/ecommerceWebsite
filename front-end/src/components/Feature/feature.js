@@ -17,8 +17,8 @@ export default function Feature({products,data,setSingle}) {
   return (
     <div className='container feature'>
         <div className='row'>
-      <h1 className='col-12 h3'>snacks</h1>      
-      <Swiper navigation={true} modules={[Navigation]} className=" m-0 mySwiper">
+      <h1 className='col-12 h6'>snacks</h1>      
+      <Swiper navigation={false} modules={[Navigation]} className=" m-0 mySwiper">
         {
             data.snacks && data.snacks.map(d => {
            return( 
@@ -35,8 +35,8 @@ export default function Feature({products,data,setSingle}) {
                 })
                 } 
                 </Swiper>
-                <h1 className='col-12 h3'>Pooja Items</h1>      
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <h1 className='col-12 h6'>Pooja Items</h1>      
+                <Swiper navigation={false} modules={[Navigation]} className="mySwiper">
                 {
                   data.pickles.map(d => {
                   return( 
@@ -53,8 +53,8 @@ export default function Feature({products,data,setSingle}) {
                       })
                       }         
                 </Swiper>
-                <h1 className='col-12 h3'>Masala</h1>      
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <h1 className='col-12 h6'>Masala</h1>      
+                <Swiper navigation={false} modules={[Navigation]} className="mySwiper">
                 {
                   data.pickles.map(d => {
                   return( 
@@ -71,8 +71,8 @@ export default function Feature({products,data,setSingle}) {
                       })
                       }         
                 </Swiper>
-                <h1 className='col-12 h3'>pickles</h1>      
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                <h1 className='col-12 h6'>pickles</h1>      
+                <Swiper navigation={false} modules={[Navigation]} className="mySwiper">
                 {
                   data.pickles.map(d => {
                   return( 

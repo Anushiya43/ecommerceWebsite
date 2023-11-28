@@ -2,7 +2,7 @@ import React from 'react'
 import "./fooder.css";
 function Fooder() {
   return (
-    <div className='container fooder pb-5' id='footer'>
+    <div className='container fooder pb-5' id='fooder'>
         <div className='row'>
             <img src='https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092452/Nathan_ecommerce/frames/fooder_banner1.jpg' className='col-12 w-100'/>
             <div className='col-12 text-center'>

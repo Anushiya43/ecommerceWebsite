@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { cartContext } from '../../providers/cartcontext';
+import "./heading.css";
 
 {/*
 <i class="fa-solid fa-magnifying-glass fa-xl pl-3"></i>
@@ -9,9 +10,9 @@ import { cartContext } from '../../providers/cartcontext';
 function Heading() {
   const {setUser}=useContext(cartContext)
   return (
-    <div className='container'>
+    <div className='container header'>
         <div className='row'>     
-        <nav class="col-12 navbar navbar-expand-lg navbar-white bg-white">
+        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-white">
               <a class="navbar-brand" href="http://wa.me/918015241898?text=hii" target='_blank'>
               <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100175/Nathan_ecommerce/frames/logo1.avif" alt="pic"/>
               </a>
@@ -22,30 +23,27 @@ function Heading() {
               <div class="collapse navbar-collapse text-dark" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
+                    <Link class="nav-link" id="link" to="/">Home <span class="sr-only">(current)</span></Link>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/product">Product</Link>
+                    <Link class="nav-link" id="link"  to="/product">Product</Link>
                   </li>
                   <li class="nav-item">
-                    <Link class="nav-link" to="/cart">Cart</Link>
+                    <Link class="nav-link" id="link"  to="/cart">Cart</Link>
                   </li>
                   <li class="nav-item">
-                    <div class="dropdown">
-                        <button class="btn text-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown m-0 p-0 text-secondary">
+                        <button class="nav-link bg-white font-weight-bold dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Account
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <Link to="/signup" class="dropdown-item" type="button">SignUp</Link>
-                          <Link to="/login" class="dropdown-item" type="button">Login</Link>
-                          <button class="dropdown-item" type="button" onClick={()=>{setUser(false)}}>Logout</button>
+                          <Link to="/signup" class="dropdown-item" id="link"  type="button">SignUp</Link>
+                          <Link to="/login" class="dropdown-item" id="link" type="button">Login</Link>
+                          <button class="dropdown-item" type="button" id="link" onClick={()=>{setUser(false)}}>Logout</button>
                         </div>
                       </div>
                   </li>
-                  <li class="nav-item">
-                    <Link class="nav-link" to="#footer" tabindex="-1" aria-disabled="true">Location</Link>
-                  </li>
-                </ul>
+                  </ul>
               </div>
             </nav>  
             <hr className='col-12 shadow-lg bg-white rounded'/>       

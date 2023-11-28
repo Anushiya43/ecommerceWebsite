@@ -8,7 +8,9 @@
 .feature p{
     color: gray;
 }
-
+.feature h1{
+    padding: 15px;
+}
 @media only screen and (width < 800px) {  
     .feature span,.feature p{
         font-size: 10px;

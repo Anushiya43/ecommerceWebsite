@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Catagory({catagory,setProducts}) {
    
   return (
-    <div className='container catagory py-5'>
+    <div className='container catagory'>
         <div className='row'>
             <div className='col-12 cat d-flex flex-row justify-content-center text-center'>            
                 {
