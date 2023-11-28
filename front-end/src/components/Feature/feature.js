@@ -15,7 +15,7 @@ export default function Feature({products,data,setSingle}) {
     console.log("hhh",data);
 
   return (
-    <div className='container feature'>
+    <div className='container feature mb-1'>
         <div className='row'>
       <h1 className='col-12 h6'>snacks</h1>      
       <Swiper navigation={false} modules={[Navigation]} className=" m-0 mySwiper">

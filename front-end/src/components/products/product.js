@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Product({data,products,setProducts,setSingle}) {  
     console.log(products);     
   return (
-    <div id="product" className='container product'>
+    <div id="product" className='container product mb-1'>
         <div className='row'>
     <div className='col-12 text-right'>
     <select name="cars" id="cars" className='btn btn-white  m-2 px-5' onChange={(e)=>setProducts(e.target.value) }>

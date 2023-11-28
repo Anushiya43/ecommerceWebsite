@@ -44,7 +44,7 @@ function Cart() {
             </span>  
             <ReactWhatsapp
               number="+918015241898"
-              className="btn btn-info"
+              className="btn btn-info p-0"
               message={data.pic+"\nName: "+data.name+"\n"+"Rate: "+data.selling_rate+"\n"+"weight "+data.weight+"\n"+"quantity "+data.quantity}
               >
                 Buy Now
