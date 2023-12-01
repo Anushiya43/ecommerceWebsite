@@ -16,7 +16,9 @@
 .pad{
     padding: 32px;
 }
-
+.catagory-pic{
+    border-radius: 50%;
+}
 .link{
     color: black;
     text-decoration: none;

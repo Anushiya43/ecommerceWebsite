@@ -1,7 +1,9 @@
 #link{
     font-weight: bold;
 }
-
+#nav{
+    background-color: #56cfe1 !important;
+}
 .logo{
     width: 100px;
     height: 50px;

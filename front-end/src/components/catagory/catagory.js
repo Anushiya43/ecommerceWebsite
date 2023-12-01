@@ -1,36 +1,38 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { catagory } from '../data/catagorydata';
 
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import "./catagory.css";
 import { Link } from 'react-router-dom';
 
-function Catagory({catagory,setProducts}) {
+function Catagory() {
    
   return (
     <div className='container catagory'>
+    <div className='row'>
       <Swiper
         slidesPerView={6}
-        spaceBetween={1}
+        spaceBetween={0}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Navigation]}
         className="mySwiper"
       >
         {
                 catagory.map(c =>{
                     return(
                         <SwiperSlide className='col-2'>
-                        <div className='pad' onClick={()=>setProducts(c.value)} key={c.id}>
+                        <div className='pad' key={c.id}>
                             <Link to={"/product"} className='link'>
-                            <img src={"https://drive.google.com/uc?id="+c.pic}></img>
-                            <p>{c.name}</p>
+                            <img src={c.pic} className='ctagory-pic shadow'></img>
+                            <p className='text-center mb-1'>{c.name}</p>
                             </Link>
                            </div> 
                            </SwiperSlide>
@@ -38,6 +40,7 @@ function Catagory({catagory,setProducts}) {
                         }
                  )}
        </Swiper>
+       </div>    
     </div>
   )
 }

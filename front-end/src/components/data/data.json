@@ -1,192 +1,302 @@
-{
-    "snacks":[
-        {   "id":1,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092961/Nathan_ecommerce/snacks/zkul8nfdzyevrj9clyob.webp",
-            "name":"Chettinadu Thattai Murukku",
-            "original_price":"Rs 150",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"         
-
-        },
-        {   
-            "id":2,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092963/Nathan_ecommerce/snacks/fefnpyccwaeobecodtgv.webp",
-            "name":"Madurai Mixture",
-            "original_price":"Rs 200",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        },
-        {
-            "id":3,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/s2zio45fjsszijxvix6m.webp",
-            "name":"Nagercoil NendranChips",
-            "original_price":"Rs 150",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-            
-        },
-        {
-            "id":4,
-           "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/duxetvqfwaeevbjlbmew.webp",
-            "name":"Palkova",
-            "original_price":"Rs 300",
-            "selling_rate":"Rs 250" ,
-            "weight":200,
-            "quantity":10,
-            "stock":"available"           
-
-        },
-        {   
-            "id":5,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/vr8vjgjqvpdfeomqfo9u.webp",
-            "name":"Srivilli Puthur Milk Halwa",
-            "original_price":"Rs 250",
-            "selling_rate":"RS 200",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        },
-        {   
-            "id":6,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/nps52lht2nmurmyymaxa.webp",
-            "name":"Thoothukudi Macaroons",
-            "original_price":"Rs 200",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-        },
-        {
-            "id":7,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/ryzcapo4qwmpncjn9rhk.webp",
-            "name":"Thoothukudi-Macaroons",
-            "original_price":"Rs 300",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        },
-        {   
-            "id":8,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/vr8vjgjqvpdfeomqfo9u.webp",
-            "name":"Tirunelveli Halwa",
-            "original_price":"Rs 200",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        },
-        {   
-            "id":9,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/amytoslk2zni5hryn8yh.webp",
-            "name":"udupiMixture",
-            "original_price":"Rs 150",
-            "selling_rate":"Rs 100",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-        },
-        {   
-            "id":10,
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/amytoslk2zni5hryn8yh.webp",
-            "name":"Chettinadu ThattaiMurukku2",
-            "original_price":"Rs 250",
-            "selling_rate":"RS 200",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        }
-    ],
-    "masala":[],
-    "pickles":[
-        {
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/Tuna_Pickle.webp",
-            "name":"Tuna Fish Pickle",
-            "original_price":"500 Rs",
-            "selling_rate":"300 Rs",
-            "weight":200,
-            "quantity":10,
-            "stock":"available"
-
-        },
-        {
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/KeralaGarlicPickle.webp",
-            "name":"Garlic Pickle",
-            "original_price":"200 Rs",
-            "selling_rate":"100 Rs",
-            "weight":200,
-            "quantity":10,
-            "rating":"available"
-
-        },
-        {
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/KeralaLemonPickleVeg.webp",
-            "name":"Lemon Pickle",
-            "original_price":"200 Rs",
-            "selling_rate":"150 Rs",
-            "weight":200,
-            "quantity":10,
-            "rating":"available"
-
-        },
-        {
-            "pic":"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092103/Nathan_ecommerce/pickles/MalabarMangoPickle.webp",
-            "name":"Mango Pickle",
-            "original_price":"250 Rs",
-            "selling_rate":"200 Rs",
-            "weight":200,
-            "quantity":10,
-            "rating":"available"
-
-        }
-    ],
-    "kitchen":[
-        {
-            "pic":"",
-            "name":"",
-            "original_price":"",
-            "selling_rate":"",
-            "weight":200,
-            "quantity":10,
-            "rating":""
-
-        },
-        {
-            "pic":"",
-            "name":"",
-            "original_price":"",
-            "selling_rate":"",
-            "rating":""
-
-        },
-        {
-            "pic":"",
-            "name":"",
-            "original_price":"",
-            "selling_rate":"",
-            "rating":""
-
-        },
-        {
-            "pic":"",
-            "name":"",
-            "original_price":"",
-            "selling_rate":"",
-            "rating":""
-
-        }
-    ]
-
-}
-
+[
+    {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701439778/ecommerce/product/dhall/toor-dhal_nnl8gd.webp",
+        "img": "",
+        "name": "Toor Dhal",
+        "original_price": "200",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701439778/ecommerce/product/dhall/organic-toor-dal_fyqtpf.webp",
+        "img": "",
+        "name": "Organic toor dhal",
+        "original_price": "250",
+        "selling_rate": "200",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433671/ecommerce/product/dhall/kadalaiParupu_uojiso.png",
+        "img": "",
+        "name": "channa dhal",
+        "original_price": "300",
+        "selling_rate": "250",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433671/ecommerce/product/dhall/kadalaiParupu_uojiso.png",
+        "img": "",
+        "name": "organic channa dhal",
+        "original_price": "200",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433650/ecommerce/product/dhall/siruparupu_jszpoe.webp",
+        "img": "",
+        "name": "moong dhal",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "6",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433661/ecommerce/product/dhall/MASOOR-DAL_m6fnf1.webp",
+        "img": "",
+        "name": "red mysore",
+        "original_price": "230",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "7",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433648/ecommerce/product/dhall/redKaramani_pnvazw.jpg",
+        "img": "",
+        "name": "red karamani",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "8",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433651/ecommerce/product/dhall/whiteRajma_mb98xy.jpg",
+        "img": "",
+        "name": "white rajma",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "9",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433660/ecommerce/product/dhall/blackRajma_z0e6to.jpg",
+        "img": "",
+        "name": "Black rajma",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "10",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433672/ecommerce/product/dhall/whiteUlunthu_vbcui5.jpg",
+        "img": "",
+        "name": "White orid dhal",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "11",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433660/ecommerce/product/dhall/fieldBeans_qaqhyk.webp",
+        "img": "",
+        "name": "field beans",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "12",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433652/ecommerce/product/dhall/whiteSundal_wihch9.jpg",
+        "img": "",
+        "name": "whit kabuli",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "13",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433646/ecommerce/product/dhall/greenMoong_wsjbvc.webp",
+        "img": "",
+        "name": "green beans",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "14",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433651/ecommerce/product/dhall/ulunthu_z6rer9.jpg",
+        "img": "",
+        "name": "black broken orid dhal",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "15",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433646/ecommerce/product/dhall/greenMoong_wsjbvc.webp",
+        "img": "",
+        "name": "green moong",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "16",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433647/ecommerce/product/dhall/pottukadalai_ehk9h7.jpg",
+        "img": "",
+        "name": "fried grams full / pottukadalai",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "17",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433646/ecommerce/product/dhall/doubleBeans_cmdecx.avif",
+        "img": "",
+        "name": "double beans",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "18",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433677/ecommerce/product/dhall/blackKaramani_h97cqb.jpg",
+        "img": "",
+        "name": "Black Karamani",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "19",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433643/ecommerce/product/dhall/blackOridDall_ijhaxt.webp",
+        "img": "",
+        "name": "black orid dhal",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "20",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433644/ecommerce/product/dhall/blackTill_hcljum.jpg",
+        "img": "",
+        "name": "black till",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "21",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433674/ecommerce/product/dhall/whiteTill_jef7su.jpg",
+        "img": "",
+        "name": "white till",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "22",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433648/ecommerce/product/dhall/RawGroundnut_e9daha.jpg",
+        "img": "",
+        "name": "raw groundnut",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "23",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433642/ecommerce/product/dhall/redPoha_ewyfso.webp",
+        "img": "",
+        "name": "red aval / poha",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "24",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433672/ecommerce/product/dhall/white-poha_qmmame.jpg",
+        "img": "",
+        "name": "white aval / poha",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    },
+    {
+        "id": "25",
+        "pic": "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433645/ecommerce/product/dhall/Cashewnut_xazbre.jpg",
+        "img": "",
+        "name": "cashew nuts",
+        "original_price": "250",
+        "selling_rate": "150",
+        "weight": "200",
+        "20": "20",
+        "stock": "available",
+        "catogory": "dals"
+    }
+]

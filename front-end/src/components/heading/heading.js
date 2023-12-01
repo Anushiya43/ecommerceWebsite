@@ -8,7 +8,7 @@ function Heading() {
   return (
     <div className='container header'>
         <div className='row'>     
-        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-white" id="nav">
               <a class="navbar-brand" href="/ecommerceWebsite/product">
               <img src="food1/logo.png" alt="pic1" className='logo'/>
               </a>

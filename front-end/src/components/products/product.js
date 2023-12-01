@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Product({data,products,setProducts,setSingle}) {  
     console.log(products);     
   return (
-    <div id="product" className='container product mb-1'>
+    <div id="product" className='container product pb-1'>
         <div className='row'>
     <div className='col-12 text-right'>
     <select name="cars" id="cars" className='btn btn-white  m-2 px-5' onChange={(e)=>setProducts(e.target.value) }>
@@ -18,20 +18,15 @@ function Product({data,products,setProducts,setSingle}) {
 
     </div>
         <div className='col-12 flex text-center'>
-         { data[products] && data[products].map(d => {
+         { data && data.map(d => {
 
             return( 
                 <Link to="single/" className='link'>            
-                <div className='card card1 shadow-lg m-0' key={d.id}  onClick={()=>{setSingle({d})}}>                    
-                    <img src={d.pic} className="product_img w-100 text-center"/>
+                <div className='card card1 shadow-lg m-0 p-0 my-2 text-center' key={d.id}  onClick={()=>{setSingle({d})}}>                    
+                    <img src={d.pic} className="product_img w-100"/>
                     <span className='w-100'>{d.name}</span>   
-                    <span className='text-secondary'>{products}</span>
-                    <span>{d.selling_rate}</span>
-                    <p className='text-right'>
-                    <button className='btn text-info'>
-                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
-                    </button>
-                    </p>                            
+                    <span className='text-secondary'>{d.catogory}</span>
+                    <span>{d.selling_rate}</span>                            
              </div>  
              </Link> 
                       

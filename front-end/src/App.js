@@ -22,38 +22,7 @@ function App() {
   const [products,setProducts]=useState("snacks");
   const [cartProduct,setCartProduct] = useState([]);
   const [catagory,setCatagory]=useState([]);
-  const a=[
-  {   
-      id:1,
-      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/duxetvqfwaeevbjlbmew.webp",
-      name:"Sweets & Snacks",
-      value:"snacks"
-  },
-  {
-      id:2,
-      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092710/Nathan_ecommerce/catagory/masala.webp",
-      name:"Masala",
-      value:"masala"
-  },
-  {
-      id:3,
-      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pickles.webp",
-      name:"Pickles",
-      value:"pickles"
-  },
-  {
-      id:4,
-      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pooja.jpg",
-      name:"Pooja Items",
-  },
-  {
-      id:5,
-      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092712/Nathan_ecommerce/catagory/kitchen.webp",
-      name:"Kitchen Item",
-      value:"kitchen"
-  }
-]
-
+  
 useEffect(() => {
   const fetchProducts = async () => {
     try {
@@ -64,6 +33,7 @@ useEffect(() => {
     } catch (error) {
       console.error("eee",error);
     }
+    console.log(data)
   };
 
   fetchProducts();
