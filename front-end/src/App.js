@@ -5,13 +5,14 @@ import Home from './pages/home';
 import Product from './components/products/product';
 import Single from './components/singleProduct/single';
 import data from "./components/data/data.json";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Heading from './components/heading/heading';
 import Fooder from './components/fooder/fooder';
 import Login from './components/Account/login';
 import Signup from './components/Account/signup';
 import Cart from './components/cart/cart';
 import { cartContext } from './providers/cartcontext';
+import axios from 'axios';
 
 
 
@@ -20,40 +21,53 @@ function App() {
   const [user,setUser]=useState(true);
   const [products,setProducts]=useState("snacks");
   const [cartProduct,setCartProduct] = useState([]);
-  const [catagory,setCatagory]=useState(
-    [
-        {   
-            id:1,
-            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/duxetvqfwaeevbjlbmew.webp",
-            name:"Sweets & Snacks",
-            value:"snacks"
-        },
-        {
-            id:2,
-            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092710/Nathan_ecommerce/catagory/masala.webp",
-            name:"Masala",
-            value:"masala"
-        },
-        {
-            id:3,
-            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pickles.webp",
-            name:"Pickles",
-            value:"pickles"
-        },
-        {
-            id:4,
-            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pooja.jpg",
-            name:"Pooja Items",
-        },
-        {
-            id:5,
-            pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092712/Nathan_ecommerce/catagory/kitchen.webp",
-            name:"Kitchen Item",
-            value:"kitchen"
-        }
-    ]
-)
+  const [catagory,setCatagory]=useState([]);
+  const a=[
+  {   
+      id:1,
+      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092962/Nathan_ecommerce/snacks/duxetvqfwaeevbjlbmew.webp",
+      name:"Sweets & Snacks",
+      value:"snacks"
+  },
+  {
+      id:2,
+      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092710/Nathan_ecommerce/catagory/masala.webp",
+      name:"Masala",
+      value:"masala"
+  },
+  {
+      id:3,
+      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pickles.webp",
+      name:"Pickles",
+      value:"pickles"
+  },
+  {
+      id:4,
+      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092711/Nathan_ecommerce/catagory/pooja.jpg",
+      name:"Pooja Items",
+  },
+  {
+      id:5,
+      pic:"https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092712/Nathan_ecommerce/catagory/kitchen.webp",
+      name:"Kitchen Item",
+      value:"kitchen"
+  }
+]
 
+useEffect(() => {
+  const fetchProducts = async () => {
+    try {
+      const response = await axios.get('https://script.google.com/macros/s/AKfycbwYmoyNZwuv4lZzFf8EryVU_HH7R4tiwk3aEgJTc_mq8qD_LlxvBXl5-R5YXdte1AoFnw/exec');
+      const productData = response.data;
+      console.log("mmmm",productData)
+      setCatagory(productData);
+    } catch (error) {
+      console.error("eee",error);
+    }
+  };
+
+  fetchProducts();
+}, []);
 
   return (
     <div className="App">          

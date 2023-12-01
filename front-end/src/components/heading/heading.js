@@ -3,18 +3,14 @@ import { Link } from 'react-router-dom';
 import { cartContext } from '../../providers/cartcontext';
 import "./heading.css";
 
-{/*
-<i class="fa-solid fa-magnifying-glass fa-xl pl-3"></i>
-<Link to="/cart"><i class="fa-solid fa-cart-shopping fa-xl pl-3"></i></Link>
-<i class="fa-solid fa-bars fa-xl pl-3"></i>*/}
 function Heading() {
   const {setUser}=useContext(cartContext)
   return (
     <div className='container header'>
         <div className='row'>     
         <nav class="col-12 navbar navbar-expand-lg navbar-light bg-white">
-              <a class="navbar-brand" href="http://wa.me/918015241898?text=hii" target='_blank'>
-              <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100175/Nathan_ecommerce/frames/logo1.avif" alt="pic"/>
+              <a class="navbar-brand" href="/ecommerceWebsite/product">
+              <img src="food1/logo.png" alt="pic1" className='logo'/>
               </a>
 
               <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,8 +42,7 @@ function Heading() {
                   </ul>
               </div>
             </nav>  
-            <hr className='col-12 shadow-lg bg-white rounded'/>       
-        </div>
+          </div>
     </div>
     
   )
