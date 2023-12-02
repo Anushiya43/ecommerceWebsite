@@ -19,11 +19,11 @@ import axios from 'axios';
 function App() {
   const [single,setSingle]= useState();
   const [user,setUser]=useState(true);
-  const [products,setProducts]=useState("snacks");
+  const [products,setProducts]=useState("dals");
   const [cartProduct,setCartProduct] = useState([]);
   const [catagory,setCatagory]=useState([]);
   
-useEffect(() => {
+/*useEffect(() => {
   const fetchProducts = async () => {
     try {
       const response = await axios.get('https://script.google.com/macros/s/AKfycbwYmoyNZwuv4lZzFf8EryVU_HH7R4tiwk3aEgJTc_mq8qD_LlxvBXl5-R5YXdte1AoFnw/exec');
@@ -37,7 +37,7 @@ useEffect(() => {
   };
 
   fetchProducts();
-}, []);
+}, []);*/
 
   return (
     <div className="App">          

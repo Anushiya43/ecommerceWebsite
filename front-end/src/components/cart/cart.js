@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useContext } from 'react'
 import { cartContext } from '../../providers/cartcontext'
 import ReactWhatsapp from 'react-whatsapp';
 
 function Cart() {
    const {cartProduct,setCartProduct,user} = useContext(cartContext)
+   const [qty,setQty]=useState([])
    console.log("user",user)
    console.log("cart1",cartProduct)
    
@@ -32,13 +33,13 @@ function Cart() {
           <p className='d-none d-lg-block'>quantity: {data.weight}g</p>
           <p className='d-flex mx-1'>
           <span class="btn-group btn-group-toggle mx-2 w-50" data-toggle="buttons">
-              <label class="btn btn-light active">
+              <label class="btn btn-light active" onClick={""}>
                 <input type="radio" name="options" id="option1" checked/> -
               </label>
               <label class="btn btn-light">
                 <input type="radio" name="options" id="option2"/> 1 
               </label>
-              <label class="btn btn-light">
+              <label class="btn btn-light" onClick={""}>
                 <input type="radio" name="options" id="option3"/> +
               </label>
             </span>  
