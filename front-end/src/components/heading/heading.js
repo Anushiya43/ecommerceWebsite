@@ -10,7 +10,7 @@ function Heading() {
         <div className='row'>     
         <nav class="col-12 navbar navbar-expand-lg navbar-light bg-white" id="nav">
               <a class="navbar-brand" href="/ecommerceWebsite/product">
-              <img src="food1/logo.png" alt="pic1" className='logo'/>
+              <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701536205/ecommerce/logo/logo_ak6xpi.jpg" alt="pic1" className='logo'/>
               </a>
 
               <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
