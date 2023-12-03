@@ -1,11 +1,5 @@
 export const catagory = [
   {
-    id: 1,
-    pic: "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701591227/ecommerce/catagory/zskaggco2crigbkzqm70.jpg",
-    name: "Kit",
-    value: "Kit",
-  },
-  {
     id: 2,
     pic: "https://res.cloudinary.com/dx0cslxpx/image/upload/v1701433636/ecommerce/catagory/masala_gosgbx.jpg",
     name: "Masala",
