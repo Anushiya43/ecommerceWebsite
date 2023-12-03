@@ -1,12 +1,13 @@
 import React from "react";
 import { useContext } from "react";
 import { cartContext } from "../../providers/cartcontext";
-import Order from "../order/order";
+import ReactWhatsapp from "react-whatsapp";
 
 function Cart() {
   const { cartProduct, setCartProduct, order, setOrder, addCart, setAddCart } =
     useContext(cartContext);
-  function handleBuy(data) {
+  {
+    /*} function handleBuy(data) {
     if (!order.includes(data)) {
       setOrder((pre) => {
         return [...pre, data];
@@ -15,26 +16,26 @@ function Cart() {
     } else {
       alert("alredy ordered");
     }
+  }*/
   }
   function handleDelete(id) {
     console.log("id", id);
     const cartData = cartProduct.filter((d) => d.pic !== id);
     setCartProduct(cartData);
-    setAddCart(addCart > 0 ? addCart - 1 : 0);
+    {
+      /*setAddCart(addCart > 0 ? addCart - 1 : 0);*/
+    }
   }
 
   return (
     <div className="container cart">
       <div className="row">
-        <p className="col-12">
-          <Order />
-        </p>
         {cartProduct &&
           cartProduct.map((data) => {
             return (
               <>
                 <div className="col-4 col-lg-3 cart my-5" key={data.id}>
-                  <img src={data.pic} className="w-50 cart shadow" alt="pic"/>
+                  <img src={data.pic} className="w-50 cart shadow" alt="pic" />
                 </div>
                 <div className="col-8 mt-2 col-lg-3 cart">
                   <i
@@ -47,17 +48,32 @@ function Cart() {
                   <p className="">
                     <span className="sPrice">Rs {data.price}</span>
                   </p>
-                  <p className="d-none d-lg-block">
+                  <p className="">
                     quantity: {data.weight} {data.weight === 1 ? "kg" : "g"}
                   </p>
                   <p>qty : {data.qty}</p>
                   <p className="d-flex mx-1">
-                    <button
+                    {/*<button
                       className="btn btn-primary"
                       onClick={() => handleBuy(data)}
                     >
-                      Buy
-                    </button>
+                      Buy Now
+                  </button>*/}
+                    <ReactWhatsapp
+                      number="+918015241898"
+                      className="btn btn-primary"
+                      message={
+                        data.pic +
+                        ' \n Product Name' +
+                        data.name +
+                        " " +
+                        data.weight +
+                        " \n Price" +
+                        data.price
+                      }
+                    >
+                      Buy Now
+                    </ReactWhatsapp>
                   </p>
                 </div>
               </>
@@ -65,7 +81,7 @@ function Cart() {
           })}
       </div>
     </div>
-  ); 
+  );
 }
 
 export default Cart;

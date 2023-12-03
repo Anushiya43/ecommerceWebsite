@@ -27,7 +27,7 @@ export default function Feature({ products, data, setSingle }) {
           
     return( 
         <>
-        <h1 className="h5 font-weight-bold">{c.name}</h1>
+        <h1 className="h5 font-weight-bold">{c.name === "Kit"?"":c.name}</h1>
         <Swiper
           navigation={false}
           modules={[Navigation]}
