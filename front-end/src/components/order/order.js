@@ -58,10 +58,10 @@ function Order() {
                           <img src={o.pic} className="order-image" alt="pic" />
                         </div>
                         <div className="w-75 text-left">
+                          <p>{o.name}</p>
                           <p>
-                            {o.name}
-                            {"  "}{" "}
-                            {o.weight + " " + o.weight === 1 ? "Kg" : "g"}
+                            {o.weight}
+                            {o.weight === 1 ? "Kg" : "g"}
                           </p>
                           <p>qty : {o.qty}</p>
                           <p className="w-75 font-weight-bold text-right">
@@ -94,7 +94,7 @@ function Order() {
                 <ReactWhatsapp
                   number="+918015241898"
                   className="btn btn-primary"
-                  message={order.toString}
+                  message={"hi"}
                 >
                   Buy Now
                 </ReactWhatsapp>
