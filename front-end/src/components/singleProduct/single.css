@@ -3,15 +3,17 @@
     flex-direction: row;
 }
 .single_img{
-    height: 400px;
+    height: 350px;
     width: 400px;
 }
+
+
 .oPrice{
     text-decoration: line-through;
     color: gray;
 }
 .sPrice{
-    color: lightsalmon;
+    color: salmon;
 }
 h1,p,span{
     font-weight: bold;

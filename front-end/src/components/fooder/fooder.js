@@ -2,11 +2,11 @@ import React from 'react'
 import "./fooder.css";
 function Fooder() {
   return (
-    <div className='container fooder pb-5' id='fooder'>
+    <div className='container fooder pb-5' id='fooder'> 
         <div className='row'>
             <img src='https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092452/Nathan_ecommerce/frames/fooder_banner1.jpg' className='col-12 w-100'/>
-            <div className='col-12 text-center'>
-                <img src='https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100175/Nathan_ecommerce/frames/logo1.avif'/>
+            <div className='col-12 text-center mt-2'>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701536205/ecommerce/logo/logo_ak6xpi.jpg" className='logo'/>
             </div>
             <div className='col-12 text-center'>
             <i class="fa-brands fa-square-facebook fa-2xl icon"></i>
@@ -14,7 +14,7 @@ function Fooder() {
             <i class="fa-brands fa-square-twitter fa-2xl icon"></i>
             <i class="fa-brands fa-square-whatsapp fa-2xl icon"></i>            
             </div>
-            <div className='col-12 text-center'>
+            <div className='col-12 text-center mt-0 mb-2'>
                 <p>37, Ayur Vigyan Nagar, New Delhi, india</p>
             </div>
             <div className='col-6 col-md-4 order-0'>

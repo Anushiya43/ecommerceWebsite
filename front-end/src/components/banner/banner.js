@@ -13,16 +13,16 @@ function Banner() {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092452/Nathan_ecommerce/frames/banner1.webp" class="d-md-block d-none w-100 h100" alt="..."/>
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100791/Nathan_ecommerce/mobile/hmlgmxgpfhzkmskwrs10.webp" class="d-md-none d-block w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/n1sqcnn55w5vp1z2tg2t.jpg" class="d-md-block d-none w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/pimxfaxenzib8mozlomw.jpg" class="d-md-none d-block w-100 h100" alt="..."/>
                 </div>
                 <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092453/Nathan_ecommerce/frames/banner4.webp" class="d-md-block d-none w-100 h100" alt="..."/>
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100748/Nathan_ecommerce/mobile/xhdobbjmmfowetlgnvcd.jpg" class="d-md-none d-block w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/n1sqcnn55w5vp1z2tg2t.jpg" class="d-md-block d-none w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/pimxfaxenzib8mozlomw.jpg" class="d-md-none d-block w-100 h100" alt="..."/>
                 </div>
                 <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701092453/Nathan_ecommerce/frames/banner3.webp" class="d-md-block d-none w-100 h100" alt="..."/>
-                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701100791/Nathan_ecommerce/mobile/hmlgmxgpfhzkmskwrs10.webp" class="d-md-none d-block w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/n1sqcnn55w5vp1z2tg2t.jpg" class="d-md-block d-none w-100 h100" alt="..."/>
+                <img src="https://res.cloudinary.com/dx0cslxpx/image/upload/v1701585462/ecommerce/Frame/pimxfaxenzib8mozlomw.jpg" class="d-md-none d-block w-100 h100" alt="..."/>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

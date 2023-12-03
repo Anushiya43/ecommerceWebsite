@@ -24,13 +24,16 @@ export default function Feature({ products, data, setSingle }) {
         { catagory.map(c =>{
           const catagoryData = data.filter((d)=> d.catogory === c.value)
           console.log(catagoryData);
+          
     return( 
+        <>
+        <h1 className="h5 font-weight-bold">{c.name}</h1>
         <Swiper
           navigation={false}
           modules={[Navigation]}
           className="m-0 py-2 mySwiper"
         >
-          <h1 className="col-12 h6">dal</h1>           
+                     
           {catagoryData &&
             catagoryData.map((d) => {
               
@@ -55,6 +58,7 @@ export default function Feature({ products, data, setSingle }) {
               );
           })}
         </Swiper>
+        </>
         )} )}
       </div>
     </div>
