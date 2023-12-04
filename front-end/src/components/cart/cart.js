@@ -64,11 +64,11 @@ function Cart() {
                       className="btn btn-primary"
                       message={
                         data.pic +
-                        ' \n Product Name' +
+                        "\n Product Name : " +
                         data.name +
                         " " +
                         data.weight +
-                        " \n Price" +
+                        "\n Price : Rs." +
                         data.price
                       }
                     >

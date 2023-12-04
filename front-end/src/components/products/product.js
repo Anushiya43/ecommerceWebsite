@@ -49,7 +49,7 @@ function Product({ data, products, setProducts, setSingle }) {
                     <img src={d.pic} className="product_img w-100" />
                     <span className="w-100">{d.name}</span>
                     <span className="text-secondary w-100">{d.catogory}</span>
-                    <span className="w-100">{d.selling_rate}</span>
+                    <span className="w-100">Rs.{d.selling_rate}</span>
                   </div>
                 </Link>
               );

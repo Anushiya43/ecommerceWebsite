@@ -40,7 +40,7 @@ function Single({ single, products, data, setSingle }) {
             <span className="oPrice">Rs {d.original_price}</span> from{" "}
             <span className="sPrice">Rs {d.selling_rate}</span>
           </p>
-          <p className="h6">{products}</p>
+          <p className="h6">{d.catogory}</p>
           <p className="h6">
             quantity:
             <button className="btn btn-info m-1" onClick={() => setWeight(250)}>
